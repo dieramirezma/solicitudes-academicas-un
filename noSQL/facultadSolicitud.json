@@ -1,0 +1,28 @@
+db.facultadSolicitud collection: 
+{
+  "facultadSolicitud": {
+    "type": "document",
+    "properties": {
+      "solId": {
+        "type": "integer"
+      },
+      "nomId": {
+        "type": "integer"
+      },
+      "conId": {
+        "type": "integer"
+      }
+    }
+  }
+}
+{
+  "solId": 18,
+  "nomId": 12,
+  "conId": 4
+}
+
+{
+  "solId": 19,
+  "nomId": 13,
+  "conId": 4
+}

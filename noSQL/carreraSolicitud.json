@@ -1,0 +1,50 @@
+db.carreraSolicitud collection:
+{
+  "carreraSolicitud": {
+    "type": "document",
+    "properties": {
+      "solId": {
+        "type": "integer"
+      },
+      "nomId": {
+        "type": "integer"
+      },
+      "conIdCarrera": {
+        "type": "integer"
+      },
+      "carSNIES": {
+        "type": "integer"
+      },
+      "facId": {
+        "type": "integer"
+      },
+      "carsolTipo": {
+        "type": "string"
+      }
+    }
+  }
+}
+{
+  "solId": 1,
+  "nomId": 1,
+  "conIdCarrera": 4,
+  "carSNIES": 106661,
+  "facId": 2,
+  "carsolTipo": "Solicitud de pregrado"
+}
+{
+  "solId": 31,
+  "nomId": 1,
+  "conIdCarrera": 5,
+  "carSNIES": 106674,
+  "facId": 2,
+  "carsolTipo": "Solicitud de posgrado"
+}
+{
+  "solId": 62,
+  "nomId": 23,
+  "conIdCarrera": 5,
+  "carSNIES": 106674,
+  "facId": 2,
+  "carsolTipo": "Solicitud por comité de posgrado"
+}

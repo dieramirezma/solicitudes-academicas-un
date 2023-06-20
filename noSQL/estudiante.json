@@ -1,0 +1,75 @@
+db.estudiante collection:
+{
+  "estudiante": {
+    "type": "document",
+    "properties": {
+      "perCedulaEst": {
+        "type": "integer",
+      },
+      "carSNIESPregrado": {
+        "type": "integer",
+      },
+      "persona": {
+        "type": "document",
+        "properties": {
+          "perCedula": {
+            "type": "integer"
+          },
+          "perNombres": {
+            "type": "string"
+          },
+          "perApellidos": {
+            "type": "string"
+          },
+          "perFechaNacimiento": {
+            "type": "date"
+          },
+          "perSexo": {
+            "type": "string"
+          },
+          "perDirCiudad": {
+            "type": "string"
+          },
+          "perDirBarrio": {
+            "type": "string"
+          },
+          "perDirección": {
+            "type": "string"
+          }
+        }
+      },
+    "notas": {
+        "type": "object",
+        "properties": {
+            "estPAPA": {
+            "type": "double"
+            },
+            "estPAPPI": {
+            "type": "double"
+            },
+            "estPA": {
+            "type": "double"
+            }
+            }
+        }
+    }
+  }
+}
+{
+  "perCedulaEst": 126955156,
+  "carSNIESPregrado": 27,
+  "persona": {
+    "perNombres": "Gustavo Dario",
+    "perApellidos": "Ortega González",
+    "perFechaNacimiento": "1987-08-28",
+    "perSexo": "Hombre",
+    "perDirCiudad": "Bogotá",
+    "perDirBarrio": "Usaquén",
+    "perDirección": "Cl. 22 # 193-12"
+  },
+  "notas": {
+    "estPAPA": 3.7,
+    "estPAPPI": 3.9,
+    "estPA": 3.9
+  }
+}

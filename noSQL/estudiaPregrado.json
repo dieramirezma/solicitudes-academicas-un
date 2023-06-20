@@ -1,0 +1,23 @@
+db.estudiaPregrado collection:
+{
+   "estudiaPregrado": {
+      "type": "document",
+      "properties": {
+         "perCedulaEst": {
+            "type": "integer"
+         },
+         "carSNIESPregrado": {
+            "type": "integer"
+         }
+      }
+   }
+}
+{
+  "perCedulaEst": 126955156,
+  "carSNIESPregrado": 27
+}
+
+{
+  "perCedulaEst": 172112547,
+  "carSNIESPregrado": 106661
+}

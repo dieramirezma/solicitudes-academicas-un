@@ -1,0 +1,48 @@
+db.solicitud collection:
+{
+  "solicitud": {
+    "type": "document",
+    "properties": {
+      "solId": {
+        "type": "integer"
+      },
+      "nomId": {
+        "type": "integer"
+      },
+      "solMedio": {
+        "type": "string"
+      },
+      "solTipo": {
+        "type": "string"
+      },
+      "solFechaEnvio": {
+        "type": "date"
+      },
+      "solComentarios": {
+        "type": "string"
+      },
+      "solEstado": {
+        "type": "string"
+      }
+    }
+  }
+}
+
+{
+  "solId": 1,
+  "nomId": 1,
+  "solMedio": "SIA",
+  "solTipo": "Facultad",
+  "solFechaEnvio": "2023-02-01",
+  "solComentarios": "Solicitud de cambio de carrera",
+  "solEstado": "Resuelta"
+}
+{
+  "solId": 5,
+  "nomId": 28,
+  "solMedio": "SIA",
+  "solTipo": "Sede",
+  "solFechaEnvio": "2023-02-03",
+  "solComentarios": "Comentarios",
+  "solEstado": "Sin resolver"
+}

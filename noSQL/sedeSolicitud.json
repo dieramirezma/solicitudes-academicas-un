@@ -1,0 +1,28 @@
+db.sedeSolicitud  collection: 
+{
+  "sedeSolicitud": {
+    "type": "document",
+    "properties": {
+      "solId": {
+        "type": "integer"
+      },
+      "nomId": {
+        "type": "integer"
+      },
+      "conId": {
+        "type": "integer"
+      }
+    }
+  }
+}
+{
+  "solId": 2,
+  "nomId": 27,
+  "conId": 1
+}
+
+{
+  "solId": 5,
+  "nomId": 28,
+  "conId": 1
+}

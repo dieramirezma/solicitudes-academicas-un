@@ -1,0 +1,23 @@
+db.estudiante_has_solicitud collection:
+{
+   "estudiante_has_solicitud": {
+      "type": "document",
+      "properties": {
+         "perCedulaEstudiante": {
+            "type": "integer"
+         },
+         "solId": {
+            "type": "integer"
+         }
+      }
+   }
+}
+{
+  "perCedulaEstudiante": 126955156,
+  "solId": 1
+}
+
+{
+  "perCedulaEstudiante": 216686401,
+  "solId": 2
+}

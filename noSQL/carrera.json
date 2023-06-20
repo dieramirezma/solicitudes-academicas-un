@@ -1,0 +1,56 @@
+db.carrera collection:
+{
+  "carrera": {
+    "type": "document",
+    "properties": {
+      "carSNIES": {
+        "type": "integer"
+      },
+      "carNombre": {
+        "type": "string"
+      },
+      "carNumCreditos": {
+        "type": "integer"
+      },
+      "carMetodologia": {
+        "type": "string"
+      },
+      "carNumSemestres": {
+        "type": "integer"
+      },
+      "carTituloOtorga": {
+        "type": "string"
+      },
+      "facultad_facId": {
+        "type": "integer"
+      }
+    }
+  }
+}
+{
+  "carSNIES": 1,
+  "carNombre": "Ingeniería Agronómica",
+  "carNumCreditos": 180,
+  "carMetodologia": "Presencial",
+  "carNumSemestres": 10,
+  "carTituloOtorga": "Ingeniero(A) Agrónomo(A)",
+  "facultad_facId": 3
+}
+{
+  "carSNIES": 19,
+  "carNombre": "Administración de Empresas",
+  "carNumCreditos": 164,
+  "carMetodologia": "Presencial",
+  "carNumSemestres": 10,
+  "carTituloOtorga": "Administrador(A) de Empresas",
+  "facultad_facId": 8
+}
+{
+  "carSNIES": 106341,
+  "carNombre": "Ciencias de la Computación",
+  "carNumCreditos": 139,
+  "carMetodologia": "Presencial",
+  "carNumSemestres": 9,
+  "carTituloOtorga": "Científico(A) de la Computación",
+  "facultad_facId": 7
+}

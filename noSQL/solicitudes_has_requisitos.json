@@ -1,0 +1,26 @@
+db.solicitudes_has_requisitos collection:
+
+{
+   "solicitudes_has_requisitos": {
+      "type": "document",
+      "properties": {
+         "nomId": {
+            "type": "integer"
+         },
+         "reqId": {
+            "type": "array",
+            "items": {
+                "type": "integer"
+            }
+        }
+    }
+   }
+}
+{
+  "nomId": 1,
+  "reqId": [1, 2, 3]
+}
+{
+  "nomId": 2,
+  "reqId": [4, 5, 6, 7]
+}
